@@ -3,7 +3,7 @@
 ### Professional portfolio for Plover Brown ###
 
 ![Screenshot of index.html](./src/components/images/portfolio-index.png)
-https://rebgrasshopper.github.io/portfolio/
+https://rebgrasshopper.github.io/reactportfolio/
 
 ## Table Of Contents ##
 
