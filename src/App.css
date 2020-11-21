@@ -1,38 +1,250 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(./components/images/low_contrast_linen/low_contrast_linen.png);
+  margin: auto 0;
+  color: #777;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url(./components/images/fabric_plaid/fabric_plaid.png);
+  /* background-color: #ddd; */
+  padding: 20px;
+  max-width: 1000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+hr {
+  width: 100%;
+  border: #ccc solid 1px;
+  margin-top: 0px;
+}
+
+p a {
+  color: teal;
+}
+
+
+/*   NAVBAR   */
+
+.full-length {
+  background-color: #ddd;
+  background-image: url(./components/images/fabric_plaid/fabric_plaid.png);
+
+  padding: 0px;
+  border-bottom: #ccc solid 2px;
+}
+
+nav {
+  padding: 0px !important;
+  background-color: #ddd;
+  background-image: url(./components/images/fabric_plaid/fabric_plaid.png);
+
+
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px;
+}
+
+nav li {
+  padding: 8px;
+  border-right: #ccc solid 1px;
+}
+
+nav li:last-child {
+  border: none;
+}
+
+a {
+  color: #777777
+}
+
+.active {
+  border-bottom: #4aaaa5 solid 2px;
+
+}
+
+
+
+/*   FOOTER   */
+
+#everythingButFooter {
+  min-height: calc(100vh - 50px);
+}
+
+section.main {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 40px;
+  font-size: 10px;
+  padding-top: 10px;
+  box-sizing: content-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-top: 6px #4aaaa5 solid;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+
+
+
+
+/*   ABOUT - INDEX.HTML  */
+
+
+#goLow {
+  padding-top: 170px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#profile-pic {
+  padding-bottom: 10px;
+  border-radius: 8px !important;
+}
+
+#profile-info {
+  margin-top: 28px;
+}
+
+#resume-button {
+  background-color: #4aaaa5;
+  border-radius: 8px;
+  border: none;
+  height: 50px;
+  padding: 10px;
+}
+
+#resume-button a {
+  color: black;
+}
+
+
+
+
+
+
+/*   PORTFOLIO.HTML   */
+
+.cardcol {
+  padding: 0px;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-img-overlay {
+  padding: 0px !important;
+  margin-bottom: 15px;
+}
+
+.card p {
+  background-color: #4aaaa5;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+/*   CONTACT.HTML  */
+
+header.col-12 {
+  margin-bottom: 50px;
+}
+
+#social-media-header {
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+.button-row {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: start;
+}
+
+.btn-info {
+  margin: 10px 10px 10px 0px;
+}
+
+.button-row a {
+  color: #fff;
+}
+
+.btn {
+  background-color: transparent;
+  border-radius: 15px;
+  color: #fff;
+  padding: 6px 20px 6px 20px;
+}
+
+button {
+  height: 150px;
+}
+
+button img {
+  width: 100px;
+  height: 100px;
+}
+
+.form-item {
+  color: #777;
+  margin-bottom: 3px;
+}
+
+.form-box {
+  width: 100%;
+  border: #777 1px solid;
+  padding: 3px;
+  margin-bottom: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+/*   MEDIA QUERIES   */
+
+@media screen and (max-width: 767px) {
+
+  .main {
+      margin: 0px !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav {
+      margin: 0 auto;
+  }
+
+  .card {
+      width: 100%;
   }
 }
